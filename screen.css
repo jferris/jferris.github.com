@@ -1,0 +1,54 @@
+html, body {
+  margin: 0em;
+  height: 100%; 
+}
+
+body {
+  background-image: url("background.png"); 
+}
+
+body, td, input, select, textarea {
+  font-size: 75%;
+  font-family: Arial; 
+}
+
+a img {
+  border: none; 
+}
+
+h1, h2 {
+  margin: 0em;
+}
+
+h1 {
+  font-size: 3em;
+  color: #E0E0FF;
+  padding: 0.4em;
+  background-color: #4040D0;
+  text-align: center;
+}
+
+p {
+  font-size: 2.5em;
+  line-height: 1.5em;
+  margin: 1.5em; 
+  text-align: justify; 
+}
+
+#page {
+  background-image: url("content_background.png");
+  width: 80em;
+  min-height: 100%;
+  overflow: hidden;
+  margin: 0 auto; 
+}
+
+a, strong {
+  text-decoration: none;
+  font-weight: normal;
+  color: #0000C0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
